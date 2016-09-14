@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- title -->
+  <title>Guía de Computo D: ??</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link rel="stylesheet" href="css/memory.css">
+
+  <!-- og -->
+  <meta property="og:title" content="Computo Memorama.">
+  <meta property="og:image" content="/img/logo.png">
+
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <div class="header clearfix">
+      <div class="header__logo">
+        <img src="img/logo.png" alt="Not a Pokémon game :<">
+      </div>
+      <h1 class="header__title">¿Guía Cómputo? ʕ•ᴥ•ʔ</h1>
+    </div><!-- /.header -->
+    
+    <div class="content">
+      <div class="container">
+
+        <div id="my-memory-game"></div>
+
+      </div>
+    </div><!-- /.content -->
+
+    <div class="footer clearfix">
+      <div class="footer__left">
+        <h2 class="footer__title">ᕙ(⇀‸↼‶)ᕗ</h2>
+        <div class="footer__copyright">
+          <small>
+            Made for fun and for  learning purposes by:<br>
+            <a href="http://callmenick.com">Juanan. :v</a>
+          </small>
+        </div>
+      </div>
+      <div class="footer__right">
+        <div id="footer__ad--container"></div>
+      </div>
+    </div><!-- /.footer -->
+
+  </div><!-- /.wrapper -->
+  
+  <!-- js -->
+  <script src="js/classList.js"></script>
+  <script src="js/memory.js"></script>
+
+  <!-- start memory! -->
+  <script>
+    (function(){
+      var myMem = new Memory({
+        wrapperID : "my-memory-game",
+        cards : [
+        {
+          id : 1,
+          img: "img/default/comp-01.png"
+        },
+        {
+          id : 2,
+          img: "img/default/comp-02.png"
+        },
+        {
+          id : 3,
+          img: "img/default/comp-03.png"
+        },
+        {
+          id : 4,
+          img: "img/default/comp-04.png"
+        },
+        {
+          id : 5,
+          img: "img/default/comp-05.png"
+        },
+        {
+          id : 6,
+          img: "img/default/comp-06.png"
+        },
+        {
+          id : 7,
+          img: "img/default/comp-07.png"
+        },
+        {
+          id : 8,
+          img: "img/default/comp-08.png"
+        },
+        {
+          id : 9,
+          img: "img/default/comp-09.png"
+        },
+        {
+          id : 10,
+          img: "img/default/comp-10.png"
+        },
+        {
+          id : 11,
+          img: "img/default/comp-11.png"
+        },
+        {
+          id : 12,
+          img: "img/default/comp-12.png"
+        },
+        {
+          id : 13,
+          img: "img/default/comp-13.png"
+        },
+        {
+          id : 14,
+          img: "img/default/comp-14.png"
+        },
+        {
+          id : 15,
+          img: "img/default/comp-15.png"
+        },
+        {
+          id : 16,
+          img: "img/default/comp-16.png"
+        }
+        ],
+        onGameStart : function() { return false; },
+        onGameEnd : function() { return false; }
+      });
+    })();
+  </script>
+
+  <div id="fb-root"></div>
+
+</body>
+</html>
