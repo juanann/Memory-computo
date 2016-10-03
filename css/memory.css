@@ -611,3 +611,18 @@ img {
   cursor: pointer;
 }
 
+.mg__falsebutton {
+  margin: 0;
+  display: inline-block;
+  padding: 5px;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  appearance: none;
+  background: #4DD0E1;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  cursor: pointer;
+}
+
