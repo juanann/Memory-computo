@@ -224,6 +224,7 @@
       </div>\
       <div class="mg__meta--right">\
       <button id="mg__button--restart" class="mg__button">Vuelve a comenzar</button>\
+      <a href="comp_images.html" class="mg__falsebutton">Glosario de Imágenes.</a>\
       </div>';
     this.gameMeta.innerHTML = this.gameMetaHTML;
     this.game.appendChild(this.gameMeta);
