@@ -591,11 +591,6 @@ img {
   margin-bottom: 10px;
 }
 
-/**
- * Game buttons
- *
- * A simple helper class for game buttons. Edit at your will.
- */
 .mg__button {
   margin: 0;
   display: inline-block;

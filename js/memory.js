@@ -30,139 +30,139 @@
     cards : [
       {
         id : 1,
-        img: "img/default/comp-01.png"
+        img: "img/default/comp01.png"
       },
       {
         id : 2,
-        img: "img/default/comp-02.png"
+        img: "img/default/comp02.png"
       },
       {
         id : 3,
-        img: "img/default/comp-03.png"
+        img: "img/default/comp03.png"
       },
       {
         id : 4,
-        img: "img/default/comp-04.png"
+        img: "img/default/comp04.png"
       },
       {
         id : 5,
-        img: "img/default/comp-05.png"
+        img: "img/default/comp05.png"
       },
       {
         id : 6,
-        img: "img/default/comp-06.png"
+        img: "img/default/comp06.png"
       },
       {
         id : 7,
-        img: "img/default/comp-07.png"
+        img: "img/default/comp07.png"
       },
       {
         id : 8,
-        img: "img/default/comp-08.png"
+        img: "img/default/comp08.png"
       },
       {
         id : 9,
-        img: "img/default/comp-09.png"
+        img: "img/default/comp09.png"
       },
       {
         id : 10,
-        img: "img/default/comp-10.png"
+        img: "img/default/comp10.png"
       },
       {
         id : 11,
-        img: "img/default/comp-11.png"
+        img: "img/default/comp11.png"
       },
       {
         id : 12,
-        img: "img/default/comp-12.png"
+        img: "img/default/comp12.png"
       },
       {
         id : 13,
-        img: "img/default/comp-13.png"
+        img: "img/default/comp13.png"
       },
       {
         id : 14,
-        img: "img/default/comp-14.png"
+        img: "img/default/comp14.png"
       },
       {
         id : 15,
-        img: "img/default/comp-15.png"
+        img: "img/default/comp15.png"
       },
       {
         id : 16,
-        img: "img/default/comp-16.png"
+        img: "img/default/comp16.png"
       },
       {
         id : 17,
-        img: "img/default/comp-17.png"
+        img: "img/default/comp17.png"
       },
       {
         id : 18,
-        img: "img/default/comp-18.png"
+        img: "img/default/comp18.png"
       },
       {
         id : 19,
-        img: "img/default/comp-19.png"
+        img: "img/default/comp19.png"
       },
       {
         id : 20,
-        img: "img/default/comp-20.png"
+        img: "img/default/comp20.png"
       },
       {
         id : 21,
-        img: "img/default/comp-21.png"
+        img: "img/default/comp21.png"
       },
       {
         id : 22,
-        img: "img/default/comp-22.png"
+        img: "img/default/comp22.png"
       },
       {
         id : 23,
-        img: "img/default/comp-23.png"
+        img: "img/default/comp23.png"
       },
       {
         id : 24,
-        img: "img/default/comp-24.png"
+        img: "img/default/comp24.png"
       },
       {
         id : 25,
-        img: "img/default/comp-25.png"
+        img: "img/default/comp25.png"
       },
       {
        id : 26,
-       img: "img/default/comp-26.png"
+       img: "img/default/comp26.png"
       },
       {
         id : 27,
-        img: "img/default/comp-27.png"
+        img: "img/default/comp27.png"
       },
       {
         id : 28,
-        img: "img/default/comp-28.png"
+        img: "img/default/comp28.png"
       },
       {
         id : 29,
-        img: "img/default/comp-29.png"
+        img: "img/default/comp29.png"
       },
       {
         id : 30,
-        img: "img/default/comp-30.png"
+        img: "img/default/comp30.png"
       },
       {
         id : 31,
-        img: "img/default/comp-31.png"
+        img: "img/default/comp31.png"
       },
       {
         id : 32,
-        img: "img/default/comp-32.png"
+        img: "img/default/comp32.png"
       },
       {
         id : 33,
-        img: "img/default/comp-33.png"
+        img: "img/default/comp33.png"
       },
       {
         id : 34,
-        img: "img/default/comp-34.png"
+        img: "img/default/comp34.png"
       }
     ],
     onGameStart : function() { return false; },
@@ -224,8 +224,9 @@
       </div>\
       <div class="mg__meta--right">\
       <button id="mg__button--restart" class="mg__button">Vuelve a comenzar</button>\
-      <a href="comp_images.html" class="mg__falsebutton">Glosario de Imágenes.</a>\
+      <a href="comp_images.html" class="mg__falsebutton">Glosario de Imágenes</a>\
       <a href="conceptos.html" class="mg__falsebutton">Glosario</a>\
+      <a href="comp_choice.html" class="mg__falsebutton">FAQ</a>\
       </div>';
     this.gameMeta.innerHTML = this.gameMetaHTML;
     this.game.appendChild(this.gameMeta);
